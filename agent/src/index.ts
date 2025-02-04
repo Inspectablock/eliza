@@ -1139,67 +1139,67 @@ export async function createAgent(
             getSecret(character, "COINGECKO_PRO_API_KEY")
                 ? coingeckoPlugin
                 : null,
-            getSecret(character, "MORALIS_API_KEY") ? moralisPlugin : null,
-            getSecret(character, "EVM_PROVIDER_URL") ? goatPlugin : null,
-            getSecret(character, "ABSTRACT_PRIVATE_KEY")
-                ? abstractPlugin
-                : null,
-            getSecret(character, "B2_PRIVATE_KEY") ? b2Plugin : null,
-            getSecret(character, "BINANCE_API_KEY") &&
-            getSecret(character, "BINANCE_SECRET_KEY")
-                ? binancePlugin
-                : null,
-            getSecret(character, "FLOW_ADDRESS") &&
-            getSecret(character, "FLOW_PRIVATE_KEY")
-                ? flowPlugin
-                : null,
-            getSecret(character, "LENS_ADDRESS") &&
-            getSecret(character, "LENS_PRIVATE_KEY")
-                ? lensPlugin
-                : null,
-            getSecret(character, "APTOS_PRIVATE_KEY") ? aptosPlugin : null,
-            getSecret(character, "MIND_COLD_WALLET_ADDRESS")
-                ? mindNetworkPlugin
-                : null,
-            getSecret(character, "MVX_PRIVATE_KEY") ? multiversxPlugin : null,
-            getSecret(character, "ZKSYNC_PRIVATE_KEY") ? zksyncEraPlugin : null,
-            getSecret(character, "CRONOSZKEVM_PRIVATE_KEY")
-                ? cronosZkEVMPlugin
-                : null,
-            getSecret(character, "TEE_MARLIN") ? teeMarlinPlugin : null,
-            getSecret(character, "TON_PRIVATE_KEY") ? tonPlugin : null,
-            getSecret(character, "THIRDWEB_SECRET_KEY") ? thirdwebPlugin : null,
-            getSecret(character, "SUI_PRIVATE_KEY") ? suiPlugin : null,
-            getSecret(character, "STORY_PRIVATE_KEY") ? storyPlugin : null,
-            getSecret(character, "SQUID_SDK_URL") &&
-            getSecret(character, "SQUID_INTEGRATOR_ID") &&
-            getSecret(character, "SQUID_EVM_ADDRESS") &&
-            getSecret(character, "SQUID_EVM_PRIVATE_KEY") &&
-            getSecret(character, "SQUID_API_THROTTLE_INTERVAL")
-                ? squidRouterPlugin
-                : null,
-            getSecret(character, "FUEL_PRIVATE_KEY") ? fuelPlugin : null,
-            getSecret(character, "AVALANCHE_PRIVATE_KEY")
-                ? avalanchePlugin
-                : null,
-            getSecret(character, "BIRDEYE_API_KEY") ? birdeyePlugin : null,
-            getSecret(character, "ECHOCHAMBERS_API_URL") &&
-            getSecret(character, "ECHOCHAMBERS_API_KEY")
-                ? echoChambersPlugin
-                : null,
-            getSecret(character, "LETZAI_API_KEY") ? letzAIPlugin : null,
-            getSecret(character, "STARGAZE_ENDPOINT") ? stargazePlugin : null,
-            getSecret(character, "GIPHY_API_KEY") ? giphyPlugin : null,
-            getSecret(character, "PASSPORT_API_KEY")
-                ? gitcoinPassportPlugin
-                : null,
-            getSecret(character, "GENLAYER_PRIVATE_KEY")
-                ? genLayerPlugin
-                : null,
-            getSecret(character, "AVAIL_SEED") &&
-            getSecret(character, "AVAIL_APP_ID")
-                ? availPlugin
-                : null,
+            // getSecret(character, "MORALIS_API_KEY") ? moralisPlugin : null,
+            // getSecret(character, "EVM_PROVIDER_URL") ? goatPlugin : null,
+            // getSecret(character, "ABSTRACT_PRIVATE_KEY")
+            //     ? abstractPlugin
+            //     : null,
+            // getSecret(character, "B2_PRIVATE_KEY") ? b2Plugin : null,
+            // getSecret(character, "BINANCE_API_KEY") &&
+            // getSecret(character, "BINANCE_SECRET_KEY")
+            //     ? binancePlugin
+            //     : null,
+            // getSecret(character, "FLOW_ADDRESS") &&
+            // getSecret(character, "FLOW_PRIVATE_KEY")
+            //     ? flowPlugin
+            //     : null,
+            // getSecret(character, "LENS_ADDRESS") &&
+            // getSecret(character, "LENS_PRIVATE_KEY")
+            //     ? lensPlugin
+            //     : null,
+            // getSecret(character, "APTOS_PRIVATE_KEY") ? aptosPlugin : null,
+            // getSecret(character, "MIND_COLD_WALLET_ADDRESS")
+            //     ? mindNetworkPlugin
+            //     : null,
+            // getSecret(character, "MVX_PRIVATE_KEY") ? multiversxPlugin : null,
+            // getSecret(character, "ZKSYNC_PRIVATE_KEY") ? zksyncEraPlugin : null,
+            // getSecret(character, "CRONOSZKEVM_PRIVATE_KEY")
+            //     ? cronosZkEVMPlugin
+            //     : null,
+            // getSecret(character, "TEE_MARLIN") ? teeMarlinPlugin : null,
+            // getSecret(character, "TON_PRIVATE_KEY") ? tonPlugin : null,
+            // getSecret(character, "THIRDWEB_SECRET_KEY") ? thirdwebPlugin : null,
+            // getSecret(character, "SUI_PRIVATE_KEY") ? suiPlugin : null,
+            // getSecret(character, "STORY_PRIVATE_KEY") ? storyPlugin : null,
+            // getSecret(character, "SQUID_SDK_URL") &&
+            // getSecret(character, "SQUID_INTEGRATOR_ID") &&
+            // getSecret(character, "SQUID_EVM_ADDRESS") &&
+            // getSecret(character, "SQUID_EVM_PRIVATE_KEY") &&
+            // getSecret(character, "SQUID_API_THROTTLE_INTERVAL")
+            //     ? squidRouterPlugin
+            //     : null,
+            // getSecret(character, "FUEL_PRIVATE_KEY") ? fuelPlugin : null,
+            // getSecret(character, "AVALANCHE_PRIVATE_KEY")
+            //     ? avalanchePlugin
+            //     : null,
+            // getSecret(character, "BIRDEYE_API_KEY") ? birdeyePlugin : null,
+            // getSecret(character, "ECHOCHAMBERS_API_URL") &&
+            // getSecret(character, "ECHOCHAMBERS_API_KEY")
+            //     ? echoChambersPlugin
+            //     : null,
+            // getSecret(character, "LETZAI_API_KEY") ? letzAIPlugin : null,
+            // getSecret(character, "STARGAZE_ENDPOINT") ? stargazePlugin : null,
+            // getSecret(character, "GIPHY_API_KEY") ? giphyPlugin : null,
+            // getSecret(character, "PASSPORT_API_KEY")
+            //     ? gitcoinPassportPlugin
+            //     : null,
+            // getSecret(character, "GENLAYER_PRIVATE_KEY")
+            //     ? genLayerPlugin
+            //     : null,
+            // getSecret(character, "AVAIL_SEED") &&
+            // getSecret(character, "AVAIL_APP_ID")
+            //     ? availPlugin
+            //     : null,
             getSecret(character, "OPEN_WEATHER_API_KEY")
                 ? openWeatherPlugin
                 : null,
@@ -1214,10 +1214,10 @@ export async function createAgent(
             getSecret(character, "HYPERLIQUID_TESTNET")
                 ? hyperliquidPlugin
                 : null,
-            getSecret(character, "AKASH_MNEMONIC") &&
-            getSecret(character, "AKASH_WALLET_ADDRESS")
-                ? akashPlugin
-                : null,
+            // getSecret(character, "AKASH_MNEMONIC") &&
+            // getSecret(character, "AKASH_WALLET_ADDRESS")
+            //     ? akashPlugin
+            //     : null,
             getSecret(character, "CHAINBASE_API_KEY") ? chainbasePlugin : null,
             getSecret(character, "QUAI_PRIVATE_KEY") ? quaiPlugin : null,
             getSecret(character, "RESERVOIR_API_KEY")
@@ -1225,15 +1225,15 @@ export async function createAgent(
                 : null,
             getSecret(character, "ZERO_EX_API_KEY") ? zxPlugin : null,
             getSecret(character, "DKG_PRIVATE_KEY") ? dkgPlugin : null,
-            getSecret(character, "PYTH_TESTNET_PROGRAM_KEY") ||
-            getSecret(character, "PYTH_MAINNET_PROGRAM_KEY")
-                ? pythDataPlugin
-                : null,
-            getSecret(character, "LND_TLS_CERT") &&
-            getSecret(character, "LND_MACAROON") &&
-            getSecret(character, "LND_SOCKET")
-                ? lightningPlugin
-                : null,
+            // getSecret(character, "PYTH_TESTNET_PROGRAM_KEY") ||
+            // getSecret(character, "PYTH_MAINNET_PROGRAM_KEY")
+            //     ? pythDataPlugin
+            //     : null,
+            // getSecret(character, "LND_TLS_CERT") &&
+            // getSecret(character, "LND_MACAROON") &&
+            // getSecret(character, "LND_SOCKET")
+            //     ? lightningPlugin
+            //     : null,
             getSecret(character, "OPENAI_API_KEY") &&
             parseBooleanFromText(
                 getSecret(character, "ENABLE_OPEN_AI_COMMUNITY_PLUGIN")
@@ -1263,19 +1263,19 @@ export async function createAgent(
             getSecret(character, "HYPERBOLIC_API_KEY")
                 ? hyperbolicPlugin
                 : null,
-            getSecret(character, "SUNO_API_KEY") ? sunoPlugin : null,
-            getSecret(character, "UDIO_AUTH_TOKEN") ? udioPlugin : null,
-            getSecret(character, "IMGFLIP_USERNAME") &&
-            getSecret(character, "IMGFLIP_PASSWORD")
-                ? imgflipPlugin
-                : null,
-            getSecret(character, "FUNDING_PRIVATE_KEY") &&
-            getSecret(character, "EVM_RPC_URL")
-                ? litPlugin
-                : null,
-            getSecret(character, "ETHSTORAGE_PRIVATE_KEY")
-                ? ethstoragePlugin
-                : null,
+            // getSecret(character, "SUNO_API_KEY") ? sunoPlugin : null,
+            // getSecret(character, "UDIO_AUTH_TOKEN") ? udioPlugin : null,
+            // getSecret(character, "IMGFLIP_USERNAME") &&
+            // getSecret(character, "IMGFLIP_PASSWORD")
+            //     ? imgflipPlugin
+            //     : null,
+            // getSecret(character, "FUNDING_PRIVATE_KEY") &&
+            // getSecret(character, "EVM_RPC_URL")
+            //     ? litPlugin
+            //     : null,
+            // getSecret(character, "ETHSTORAGE_PRIVATE_KEY")
+            //     ? ethstoragePlugin
+            //     : null,
             getSecret(character, "MINA_PRIVATE_KEY") ? minaPlugin : null,
             getSecret(character, "FORM_PRIVATE_KEY") ? formPlugin : null,
             getSecret(character, "ANKR_WALLET") ? ankrPlugin : null,
